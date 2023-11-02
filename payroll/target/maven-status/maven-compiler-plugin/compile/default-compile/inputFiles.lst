@@ -1,6 +1,0 @@
-/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend/microservice/spring-boot/payroll/src/main/java/com/microservice/payroll/PayRollApplication.java
-/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend/microservice/spring-boot/payroll/src/main/java/com/microservice/payroll/services/PaymentService.java
-/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend/microservice/spring-boot/payroll/src/main/java/com/microservice/payroll/entities/Worker.java
-/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend/microservice/spring-boot/payroll/src/main/java/com/microservice/payroll/feignclients/WorkerFeignClients.java
-/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend/microservice/spring-boot/payroll/src/main/java/com/microservice/payroll/controller/PaymentController.java
-/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend/microservice/spring-boot/payroll/src/main/java/com/microservice/payroll/entities/Payment.java

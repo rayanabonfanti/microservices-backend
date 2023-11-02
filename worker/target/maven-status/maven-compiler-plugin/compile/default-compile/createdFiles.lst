@@ -1,4 +1,0 @@
-com/microservice/payroll/WorkerApplication.class
-com/microservice/payroll/repository/WorkerRepository.class
-com/microservice/payroll/controller/WorkerController.class
-com/microservice/payroll/entity/Worker.class
