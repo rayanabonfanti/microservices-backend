@@ -1,0 +1,212 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"2846ae2a-69c6-444c-ba5e-d6d67165abcb\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2Xd6WedQ6J5812u0pNPMK1zYOdg\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\n      <module name=\"microservices-backend\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\n      <module name=\"microservices-backend\" />\n      <option name=\"filePath\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"2846ae2a-69c6-444c-ba5e-d6d67165abcb\" name=\"Changes\" comment=\"\" />\n      <created>1698946642985</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1698946642985</updated>\n    </task>\n    <servers />\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,17 +5,77 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="2846ae2a-69c6-444c-ba5e-d6d67165abcb" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/microservice-worker-test.properties" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/microservice-worker.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/microservice.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/api-gateway-zull/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/api-gateway-zull/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/api-gateway-zull/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/api-gateway-zull/mvnw" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/api-gateway-zull/mvnw.cmd" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/api-gateway-zull/pom.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/api-gateway-zull/src/main/java/com/microservice/apigatewayzuul/ApiGatewayZuulApplication.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/api-gateway-zull/src/main/resources/application.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/api-gateway-zull/src/test/java/com/microservice/apigatewayzuul/ApiGatewayZuulApplicationTests.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/payroll/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/payroll/pom.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/payroll/PayRollApplication.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/payroll/controller/PaymentController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/payroll/entities/Payment.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/payroll/entities/Worker.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/payroll/feignclients/WorkerFeignClients.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/payroll/services/PaymentService.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/payroll/src/main/resources/application.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/payroll/src/test/java/com/microservice/payroll/PayRollApplicationTests.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/server-eureka/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/server-eureka/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/server-eureka/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/server-eureka/mvnw" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/server-eureka/mvnw.cmd" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/server-eureka/pom.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/server-eureka/src/main/java/com/microservice/servereureka/ServerEurekaApplication.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/server-eureka/src/main/resources/application.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/server-eureka/src/test/java/com/microservice/servereureka/ServerEurekaApplicationTests.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/worker/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/worker/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/worker/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/worker/mvnw" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/worker/mvnw.cmd" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/worker/pom.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/worker/src/main/java/com/microservice/payroll/WorkerApplication.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/worker/src/main/java/com/microservice/payroll/controller/WorkerController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/worker/src/main/java/com/microservice/payroll/entity/Worker.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/worker/src/main/java/com/microservice/payroll/repository/WorkerRepository.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/worker/src/main/resources/application.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/worker/src/main/resources/data.sql" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/worker/src/test/java/com/microservice/payroll/WorkerApplicationTests.java" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="main" />
++        <entry key="$PROJECT_DIR$" value="example-microservice" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -31,17 +91,16 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "last_opened_file_path": "/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend",
++    "project.structure.last.edited": "Modules",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.0"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$" />
+@@ -50,7 +109,72 @@
+       <recent name="$PROJECT_DIR$" />
+     </key>
+   </component>
+-  <component name="RunManager">
++  <component name="RunManager" selected="Application.ApiGatewayZuulApplication">
++    <configuration name="2 Test Instance WorkerApplication" type="Application" factoryName="Application">
++      <option name="MAIN_CLASS_NAME" value="com.microservice.payroll.WorkerApplication" />
++      <module name="microservice.worker" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.microservice.payroll.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.microservice.configserver.ApiGatewayZuulApplication" />
++      <module name="com.microservice.api-gateway-zuul" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.microservice.configserver.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="PayRollApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.microservice.payroll.PayRollApplication" />
++      <module name="microservice.payroll" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.microservice.payroll.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ServerEurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.microservice.servereureka.ServerEurekaApplication" />
++      <module name="com.microservice.server-eureka" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.microservice.servereureka.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="WorkerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.microservice.payroll.WorkerApplication" />
++      <module name="microservice.worker" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.microservice.payroll.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration default="true" type="JetRunConfigurationType">
+       <module name="microservices-backend" />
+       <method v="2">
+@@ -64,6 +188,22 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <list>
++      <item itemvalue="Application.2 Test Instance WorkerApplication" />
++      <item itemvalue="Application.ApiGatewayZuulApplication" />
++      <item itemvalue="Application.PayRollApplication" />
++      <item itemvalue="Application.ServerEurekaApplication" />
++      <item itemvalue="Application.WorkerApplication" />
++    </list>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.WorkerApplication" />
++        <item itemvalue="Application.ServerEurekaApplication" />
++        <item itemvalue="Application.PayRollApplication" />
++        <item itemvalue="Application.ApiGatewayZuulApplication" />
++        <item itemvalue="Application.ApiGatewayZuulApplication" />
++      </list>
++    </recent_temporary>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">

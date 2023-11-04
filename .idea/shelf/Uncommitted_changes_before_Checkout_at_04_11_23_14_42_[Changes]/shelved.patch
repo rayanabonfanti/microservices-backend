@@ -1,0 +1,15 @@
+Index: config-server/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=microservice-config-server\nspring.cloud.config.server.git.default-label=example-microservice\nserver.port=8888\nspring.cloud.server.git.uri=https://github.com/rayanabonfanti/microservices-backend\n
+===================================================================
+diff --git a/config-server/src/main/resources/application.properties b/config-server/src/main/resources/application.properties
+--- a/config-server/src/main/resources/application.properties	
++++ b/config-server/src/main/resources/application.properties	
+@@ -1,4 +1,4 @@
+ spring.application.name=microservice-config-server
+-spring.cloud.config.server.git.default-label=example-microservice
++spring.cloud.config.server.git.default-label=main
+ server.port=8888
+-spring.cloud.server.git.uri=https://github.com/rayanabonfanti/microservices-backend
++spring.cloud.server.git.uri=https://github.com/rayanabonfanti/example-microservice-config-server/
