@@ -4,7 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2846ae2a-69c6-444c-ba5e-d6d67165abcb" name="Changes" comment="" />
+    <list default="true" id="2846ae2a-69c6-444c-ba5e-d6d67165abcb" name="Changes" comment="teste">
+      <change afterPath="$PROJECT_DIR$/example-microservice/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/.idea/microservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/api-gateway-zull/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/api-gateway-zull/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/api-gateway-zull/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/api-gateway-zull/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/api-gateway-zull/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/api-gateway-zull/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/api-gateway-zull/src/main/java/com/microservice/configserver/ApiGatewayZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/api-gateway-zull/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/api-gateway-zull/src/test/java/com/microservice/configserver/ApiGatewayZuulApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/config-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/config-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/config-server/src/main/java/com/microservice/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/config-server/src/test/java/com/microservice/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/payroll/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/payroll/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/payroll/src/main/java/com/microservice/payroll/PayRollApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/payroll/src/main/java/com/microservice/payroll/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/payroll/src/main/java/com/microservice/payroll/entities/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/payroll/src/main/java/com/microservice/payroll/entities/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/payroll/src/main/java/com/microservice/payroll/feignclients/WorkerFeignClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/payroll/src/main/java/com/microservice/payroll/services/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/payroll/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/payroll/src/test/java/com/microservice/payroll/PayRollApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/server-eureka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/server-eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/server-eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/server-eureka/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/server-eureka/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/server-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/server-eureka/src/main/java/com/microservice/servereureka/ServerEurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/server-eureka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/server-eureka/src/test/java/com/microservice/servereureka/ServerEurekaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/worker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/worker/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/worker/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/worker/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/worker/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/worker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/worker/src/main/java/com/microservice/payroll/WorkerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/worker/src/main/java/com/microservice/payroll/controller/WorkerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/worker/src/main/java/com/microservice/payroll/entity/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/worker/src/main/java/com/microservice/payroll/repository/WorkerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/worker/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/worker/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-microservice/worker/src/test/java/com/microservice/payroll/WorkerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +88,15 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="autoDetectCompiler" value="false" />
+        <option name="generatedSourcesFolder" value="IGNORE" />
+        <option name="jdkForImporter" value="corretto-1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -33,11 +109,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "example-microservice",
     "last_opened_file_path": "/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,6 +150,19 @@
       <option name="presentableId" value="Default" />
       <updated>1698946642985</updated>
     </task>
+    <task id="LOCAL-00001" summary="teste">
+      <option name="closed" value="true" />
+      <created>1699129552919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699129552919</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="teste" />
   </component>
 </project>

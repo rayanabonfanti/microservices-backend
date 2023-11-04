@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice.worker" />
+        <module name="com.microservice.config-server" />
+        <module name="com.microservice.server-eureka" />
+        <module name="microservice.payroll" />
+        <module name="microservice.servereureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.microservice.api-gateway-zuul (1)" target="1.8" />
+      <module name="com.microservice.api-gateway-zuul (2)" target="1.8" />
+      <module name="microservice.servereureka" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com.microservice.api-gateway-zuul" options="-parameters" />
+      <module name="com.microservice.api-gateway-zuul (1)" options="-parameters" />
+      <module name="com.microservice.api-gateway-zuul (2)" options="-parameters" />
+      <module name="com.microservice.config-server" options="-parameters" />
+      <module name="com.microservice.server-eureka" options="-parameters" />
+      <module name="microservice.payroll" options="-parameters" />
+      <module name="microservice.servereureka" options="-parameters" />
+      <module name="microservice.worker" options="-parameters" />
+    </option>
+  </component>
+</project>

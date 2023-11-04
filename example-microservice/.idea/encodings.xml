@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/api-gateway-zull/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payroll/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot/payroll/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot/payroll/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot/server-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot/server-eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot/worker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot/worker/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/worker/src/main/java" charset="UTF-8" />
+  </component>
+</project>
