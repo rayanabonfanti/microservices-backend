@@ -9,10 +9,10 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.microservice.config-server</groupId>
-	<artifactId>com.microservice.config-server</artifactId>
+	<groupId>microservice.config-server</groupId>
+	<artifactId>microservice.config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>com.microservice.config-server</name>
+	<name>microservice.config-server</name>
 	<description>Microservice Server Configuration</description>
 
 	<properties>

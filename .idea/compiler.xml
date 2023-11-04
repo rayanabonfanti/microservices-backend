@@ -6,15 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microservice.config-server" />
+        <module name="microservice.worker" />
+        <module name="microservice.api-gateway-zuul" />
+        <module name="microservice.payroll" />
+        <module name="microservice.server-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="microservice.worker" target="1.8" />
+      <module name="com.microservice.api-gateway-zuul" target="1.8" />
+      <module name="com.microservice.config-server" target="1.8" />
+      <module name="com.microservice.server-eureka" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com.microservice.api-gateway-zuul" options="-parameters" />
       <module name="com.microservice.config-server" options="-parameters" />
+      <module name="com.microservice.server-eureka" options="-parameters" />
+      <module name="microservice.api-gateway-zuul" options="-parameters" />
+      <module name="microservice.config-server" options="-parameters" />
+      <module name="microservice.payroll" options="-parameters" />
+      <module name="microservice.server-eureka" options="-parameters" />
       <module name="microservice.worker" options="-parameters" />
     </option>
   </component>

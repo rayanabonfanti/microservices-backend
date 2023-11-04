@@ -5,11 +5,22 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/example-microservice/worker/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway-zull/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/payroll/pom.xml" />
+        <option value="$PROJECT_DIR$/server-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/worker/pom.xml" />
+        <option value="$PROJECT_DIR$/payroll/api-gateway-zull/pom.xml" />
+        <option value="$PROJECT_DIR$/payroll/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/payroll/server-eureka/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/example-microservice/worker/pom.xml" />
+        <option value="$PROJECT_DIR$/payroll/api-gateway-zull/pom.xml" />
+        <option value="$PROJECT_DIR$/payroll/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/payroll/server-eureka/pom.xml" />
       </set>
     </option>
   </component>

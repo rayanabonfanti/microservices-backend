@@ -9,10 +9,10 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.microservice.server-eureka</groupId>
-	<artifactId>com.microservice.server-eureka</artifactId>
+	<groupId>microservice.server-eureka</groupId>
+	<artifactId>microservice.server-eureka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>com.microservice.server-eureka</name>
+	<name>microservice.server-eureka</name>
 	<description>Microservice Server Eureka</description>
 
 	<properties>

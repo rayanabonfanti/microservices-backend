@@ -9,10 +9,10 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.microservice.api-gateway-zuul</groupId>
-	<artifactId>com.microservice.api-gateway-zuul</artifactId>
+	<groupId>microservice.api-gateway-zuul</groupId>
+	<artifactId>microservice.api-gateway-zuul</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>com.microservice.api-gateway-zuul</name>
+	<name>microservice.api-gateway-zuul</name>
 	<description>Microservice API Gateway Zuul</description>
 
 	<properties>
