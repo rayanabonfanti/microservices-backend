@@ -5,41 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2846ae2a-69c6-444c-ba5e-d6d67165abcb" name="Changes" comment="teste">
-      <change afterPath="$PROJECT_DIR$/oauth/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/feignclients/UserFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/models/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/src/main/java/com/microservice/oauth/WorkerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/src/test/java/com/microservice/oauth/WorkerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway-zull/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zull/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/payroll/PayRollApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/oauth/PayRollApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/payroll/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/oauth/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/payroll/entities/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/oauth/entities/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/payroll/entities/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/oauth/entities/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/payroll/feignclients/WorkerFeignClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/oauth/feignclients/WorkerFeignClients.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/payroll/services/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/payroll/src/main/java/com/microservice/oauth/services/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/src/test/java/com/microservice/payroll/PayRollApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/payroll/src/test/java/com/microservice/oauth/PayRollApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/com/microservice/user/ConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/test/java/com/microservice/user/ConfigServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oauth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/UserApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/main/java/com/microservice/payroll/WorkerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/OAuthApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/main/java/com/microservice/payroll/controller/WorkerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/main/java/com/microservice/oauth/controller/WorkerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/main/java/com/microservice/payroll/entity/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/main/java/com/microservice/oauth/entity/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/main/java/com/microservice/payroll/repository/WorkerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/main/java/com/microservice/oauth/repository/WorkerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/test/java/com/microservice/payroll/WorkerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth/src/test/java/com/microservice/oauth/OAuthApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "example-microservice",
-    "last_opened_file_path": "/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend/oauth/src/main/java/com/microservice/oauth",
+    "last_opened_file_path": "/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend/config-server/src/main/resources",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -106,6 +85,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/microservice-user/src/main/resources" />
@@ -119,10 +99,23 @@
       <recent name="com.microservice.user.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OAuthApplication">
+  <component name="RunManager" selected="Application.ApiGatewayZuulApplication">
     <configuration name="ApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.microservice.user.ApiGatewayZuulApplication" />
       <module name="microservice.api-gateway-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservice.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.microservice.user.ConfigServerApplication" />
+      <module name="microservice.config-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.microservice.user.*" />
@@ -174,19 +167,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.microservice.oauth.WorkerApplication" />
-      <module name="microservice.worker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.microservice.oauth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="microservices-backend" />
       <method v="2">
@@ -203,17 +183,17 @@
     <list>
       <item itemvalue="Application.OAuthApplication" />
       <item itemvalue="Application.ApiGatewayZuulApplication" />
-      <item itemvalue="Application.WorkerApplication" />
+      <item itemvalue="Application.ConfigServerApplication" />
       <item itemvalue="Application.ServerEurekaApplication" />
       <item itemvalue="Application.UserApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApiGatewayZuulApplication" />
         <item itemvalue="Application.OAuthApplication" />
         <item itemvalue="Application.UserApplication" />
-        <item itemvalue="Application.ApiGatewayZuulApplication" />
         <item itemvalue="Application.ServerEurekaApplication" />
-        <item itemvalue="Application.WorkerApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -240,16 +220,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="teste" />
     <option name="LAST_COMMIT_MESSAGE" value="teste" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/services/UserService.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
