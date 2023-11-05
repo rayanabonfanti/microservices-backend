@@ -2,6 +2,7 @@ package com.microservice.oauth.controller;
 
 import com.microservice.oauth.entity.Worker;
 import com.microservice.oauth.repository.WorkerRepository;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
