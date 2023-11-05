@@ -1,4 +1,4 @@
-package com.microservice.user.models;
+package com.microservice.oauth.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -30,3 +30,4 @@ public class User {
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles = new HashSet<>();
 }
+

@@ -1,4 +1,4 @@
-package com.microservice.user.models;
+package com.microservice.oauth.models;
 
 import lombok.*;
 
@@ -17,3 +17,4 @@ public class Role {
     private Long id;
     private String roleName;
 }
+
