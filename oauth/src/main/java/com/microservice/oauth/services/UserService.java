@@ -19,6 +19,7 @@ public class UserService implements UserDetailsService {
     private UserFeignClient userFeignClient;
 
     public User findByEmail(String email) {
+        System.out.println("Mensagem****");
         User user = userFeignClient.findByEmail(email).getBody();
         if (user == null) {
             logger.error("Email not found: " + email);

@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microservice.user" />
+        <module name="microservice.worker" />
         <module name="microservice.api-gateway-zuul" />
         <module name="microservice.payroll" />
         <module name="microservice.server-eureka" />
-        <module name="microservice.worker" />
-        <module name="user" />
         <module name="microservice.oauth2" />
       </profile>
     </annotationProcessing>
@@ -24,6 +24,7 @@
       <module name="microservice.config-server" target="11" />
       <module name="microservice.worker (1)" target="11" />
       <module name="microservice.worker (2)" target="11" />
+      <module name="user" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -38,6 +39,7 @@
       <module name="microservice.oauth2" options="-parameters" />
       <module name="microservice.payroll" options="-parameters" />
       <module name="microservice.server-eureka" options="-parameters" />
+      <module name="microservice.user" options="-parameters" />
       <module name="microservice.worker" options="-parameters" />
       <module name="microservice.worker (1)" options="-parameters" />
       <module name="microservice.worker (2)" options="-parameters" />

@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: microservice-api-gateway-zuul
+  config:
+    import: optional:configserver:http://localhost:8888
+my-secret-key: ${mySecretKey}

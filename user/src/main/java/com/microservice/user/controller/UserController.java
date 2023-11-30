@@ -13,6 +13,11 @@ public class UserController {
 	@Autowired
 	private UserRepository userRepository;
 
+	@GetMapping(value = "/teste")
+	public String teste() {
+		return "teste";
+	}
+
 	@GetMapping(value = "/{id}")
 	public ResponseEntity<User> findById(@PathVariable Long id) {
 		User obj = userRepository.findById(id).get();

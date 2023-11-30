@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: microservice-oauth
+  config:
+    import: optional:configserver:http://localhost:8888
+
+my-secret-key: ${mySecretKey}
+client_id: ${clientId}
+client_secret: ${clientSecret}
