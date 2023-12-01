@@ -5,54 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2846ae2a-69c6-444c-ba5e-d6d67165abcb" name="Changes" comment="teste">
-      <change afterPath="$PROJECT_DIR$/api-gateway-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/microservice-oauth.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/microservice-user.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payroll/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/datas.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zull/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zull/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zull/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zull/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zull/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zull/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zull/src/main/java/com/microservice/user/ApiGatewayZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/src/main/java/com/microservice/apigatewayzuul/ApiGatewayZuulApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zull/src/main/java/com/microservice/user/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/src/main/java/com/microservice/apigatewayzuul/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zull/src/main/java/com/microservice/user/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/src/main/java/com/microservice/apigatewayzuul/config/ResourceServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zull/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/microservice-api-gateway-zuul.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zull/src/test/java/com/microservice/user/ApiGatewayZuulApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/src/test/java/com/microservice/apigateway/ApiGatewayZuulApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/microservice/user/ConfigServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/com/microservice/user/ConfigServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/microservice-user.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/microservice-user.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oauth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oauth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth/src/main/java/com/microservice/oauth/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payroll/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/microservice-payroll.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-eureka/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-eureka/src/main/resources/data.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/worker/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/microservice-worker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/UserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/models/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/microservice/user/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/test/java/com/microservice/user/UserApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,20 +70,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "example-microservice",
-    "last_opened_file_path": "/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend/worker/src/main/resources",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.build.tools.auto.reload": "SELECTIVE",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;example-microservice&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rayanaribeirobonfanti/Documents/projects github/microservices-backend/worker/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/worker/src/main/resources" />
@@ -134,7 +101,7 @@
       <recent name="com.microservice.user.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OAuthApplication">
+  <component name="RunManager" selected="Application.WorkerApplication">
     <configuration name="ApiGatewayZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
         <env name="mySecretKey" value="my-secret-key" />
@@ -183,6 +150,8 @@
       </method>
     </configuration>
     <configuration name="UserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.microservice.user.UserApplication" />
       <module name="microservice.user" />
       <extension name="coverage">
@@ -230,11 +199,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApiGatewayZuulApplication" />
+        <item itemvalue="Application.WorkerApplication" />
+        <item itemvalue="Application.PayRollApplication" />
         <item itemvalue="Application.UserApplication" />
         <item itemvalue="Application.OAuthApplication" />
-        <item itemvalue="Application.PayRollApplication" />
-        <item itemvalue="Application.WorkerApplication" />
+        <item itemvalue="Application.ApiGatewayZuulApplication" />
       </list>
     </recent_temporary>
   </component>

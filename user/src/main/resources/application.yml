@@ -1,3 +1,28 @@
+#spring:
+#  application:
+#    name: microservice-user
+#  datasource:
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost/db_microservice_example?useTimezone=true&serverTimezone=UTC
+#    username: root
+#    password: Teste@123
+#  jpa:
+#    defer-datasource-initialization: true
+#    hibernate.ddl-auto: update
+#    properties.hibernate.show_sql: true
+#    properties.hibernate.format_sql: true
+#    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+#
+#server:
+#  port: 8090
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka
+#  instance:
+#    instance-id: ${spring.application.name}:${spring.application.name:${random.value}}
+
 spring:
   application:
     name: microservice-user

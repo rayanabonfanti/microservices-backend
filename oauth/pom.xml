@@ -8,14 +8,17 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.microservice.oauth2</groupId>
 	<artifactId>microservice.oauth2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>microservice.oauth</name>
 	<description>Microservice Authentication Server</description>
+
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>

@@ -2,16 +2,19 @@ spring:
   application:
     name: microservice-user
   datasource:
-    url: jdbc:h2:mem:db_microservice
-    username: username
-    password: password
-  h2:
-    console:
-      enabled: true
-      path: /h2-console
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/db_microservice_example?useTimezone=true&serverTimezone=UTC
+    username: root
+    password: Teste@123
+  jpa:
+    defer-datasource-initialization: true
+    hibernate.ddl-auto: update
+    properties.hibernate.show_sql: true
+    properties.hibernate.format_sql: true
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
 
 server:
-  port: ${PORT:0}
+  port: 8090
 
 eureka:
   client:
