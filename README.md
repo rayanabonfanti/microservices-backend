@@ -1,5 +1,3 @@
-# microservices-backend
-Projects about Microservice
 # Projeto de Microserviços com Spring Boot
 Este repositório contém um projeto de exemplo que demonstra a implementação de microserviços em uma aplicação Spring Boot. O projeto tem uma branch principal chamada `main` e uma branch secundária chamada `example-microservice`, que é dedicada ao desenvolvimento de microserviços que fazem comunicação entre si usando Spring Boot e Java.
 
