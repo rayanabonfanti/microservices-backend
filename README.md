@@ -1,18 +1,18 @@
-# Projeto de Microserviços com Spring Boot
-Este repositório contém um projeto de exemplo que demonstra a implementação de microserviços em uma aplicação Spring Boot. O projeto tem uma branch principal chamada `main` e uma branch secundária chamada `example-microservice`, que é dedicada ao desenvolvimento de microserviços que fazem comunicação entre si usando Spring Boot e Java.
+# Microservices Project with Spring Boot
+This repository contains an example project that demonstrates the implementation of microservices in a Spring Boot application. The project has a main branch called `main` and a secondary branch called `example-microservice`, which is dedicated to developing microservices that communicate with each other using Spring Boot and Java.
 
 ## Branch example-microservice
-A branch `example-microservice` é o coração deste repositório e se concentra no desenvolvimento de microserviços que colaboram para fornecer funcionalidades completas de uma aplicação. Cada microserviço é uma unidade independente com seu próprio conjunto de responsabilidades e capacidades. A comunicação entre esses microserviços é facilitada pelo uso do Spring Boot e da linguagem Java.
+The `example-microservice` branch is the core of this repository and focuses on the development of microservices that collaborate to provide complete application functionality. Each microservice is an independent unit with its own set of responsibilities and capabilities. Communication between these microservices is facilitated by the use of Spring Boot and the Java language.
 
-## Como usar a branch `example-microservice`
+## How to Use the `example-microservice` Branch
 
-Para explorar a implementação de microsserviços com Spring Boot, você pode verificar a branch `example-microservice` e executar a aplicação da seguinte maneira:
+To explore the implementation of microservices with Spring Boot, you can check out the `example-microservice` branch and run the application as follows:
 
 ```bash
 git checkout example-microservice
 ```
 
-## Contribuições
-Este projeto está aberto a contribuições. Se você deseja adicionar novos microserviços, aprimorar a comunicação entre eles, corrigir bugs ou otimizar o desempenho, sinta-se à vontade para abrir um pull request. Sua contribuição é valiosa e ajudará a expandir a funcionalidade e a escalabilidade do projeto.
+## Contributions
+This project is open to contributions. If you want to add new microservices, improve communication between them, fix bugs, or optimize performance, feel free to open a pull request. Your contribution is valuable and will help expand the functionality and scalability of the project.
 
-Esperamos que este projeto sirva como um exemplo sólido de como desenvolver microserviços usando o Spring Boot e Java e como eles podem ser usados para construir sistemas distribuídos eficientes e escaláveis.
+We hope this project serves as a solid example of how to develop microservices using Spring Boot and Java, and how they can be used to build efficient and scalable distributed systems.
